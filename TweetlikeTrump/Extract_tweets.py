@@ -13,10 +13,6 @@ def process_or_store(tweet):
     json.dumps(tweet)
 
 
-consumer_key="liABpG2XM62tIo02fjen7FDVJ"
-consumer_secret="nUI6fH6PJuuUvQFlzylCieFxOZ8VZdf5yGrRGK294whWEenayA"
-access_token="1046393582469500928-a4Il71HUPkyF0MtoS3V6dJL1igx84k"
-access_secret="VcGhV2AcXHQISVXwYuOhmIVkvxaMuPnWlhnGS4LmwEkDN"
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
